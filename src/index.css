@@ -5,9 +5,75 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #2874f0;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.title {
+  padding: 0px 15px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.searchBox {}
+
+.searchInput {
+  border: none;
+  width: 400px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 10px;
+  outline: none;
+  font-size: large;
+}
+
+.searchButton {
+  outline: none;
+  font-size: large;
+  color: white;
+  background-color: #2874f0;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.loginButton {
+  border: none;
+  outline: none;
+  font-size: large;
+  color: #2874f0;
+  background-color: white;
+  width: 140px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.itemlist {
+  margin-top: 10px;
+  background-color: white;
+}
+
+.itemlist>ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.itemlist>ul>li {
+  margin-right: 20px;
 }

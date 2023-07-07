@@ -1,8 +1,8 @@
 import './App.css';
-
+import Home from '../src/pages/Home.js';
 function App() {
   return (
-    <div>shubhamn</div>
+    <Home />
   );
 }
 
