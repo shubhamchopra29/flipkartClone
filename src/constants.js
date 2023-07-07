@@ -6,3 +6,12 @@ export const menuItems = [
     { name: "Home & Furniture", image: "https://rukminim1.flixcart.com/flap/80/80/image/ab7e2b022a4587dd.jpg?q=100" },
     { name: "Appliances", image: "https://rukminim1.flixcart.com/flap/80/80/image/0ff199d1bd27eb98.png?q=100" }
 ]
+export const bestOfItems = [
+    { name: "Best of Trimmers", price: "", image: "https://rukminim2.flixcart.com/image/612/612/xif0q/trimmer/k/7/v/1-7-mm-bt1233-18-stainless-steel-cordless-philips-original-imagzgwgrdtxhgbu.jpeg?q=70" },
+    { name: "", price: "", image: "" },
+    { name: "", price: "", image: "" },
+    { name: "", price: "", image: "" },
+    { name: "", price: "", image: "" },
+    { name: "", price: "", image: "" },
+    { name: "", price: "", image: "" }
+]

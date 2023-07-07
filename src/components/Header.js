@@ -2,7 +2,7 @@ import SearchBox from './SearchBox';
 const Header = () => {
     return (
         <div className="header">
-            <div className="title" >Flipkart</div>
+            <div className="title" > Chopra's Flipkart</div>
             <div className="searchBox">
                 <SearchBox />
             </div>
