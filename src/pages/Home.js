@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import { menuItems } from "../constants";
 import SliderComponent from "../components/SliderComponent";
+import BestOf from "../components/BestOf";
 const Home = () => {
 
     return (
@@ -14,6 +15,7 @@ const Home = () => {
                 </ul>
             </div>
             <SliderComponent />
+            <BestOf heading={"Best of Electronics"}/>
         </>
     )
 }
